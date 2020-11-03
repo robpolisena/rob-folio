@@ -5,7 +5,6 @@ import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -66,5 +65,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-//TRVL <i className="fab fa-typo3" />
