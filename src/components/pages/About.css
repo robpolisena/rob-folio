@@ -3,9 +3,10 @@
   font-size: 1.1em;
 
   background-image: url(../../assets/images/background.jpg);
-  background-size: cover;
-  background-position: top;
+  background-size: contain;
+  background-position: center;
   position: relative;
+  padding: 2px;
 }
 
 .profile {
